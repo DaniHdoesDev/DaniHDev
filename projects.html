@@ -7,11 +7,16 @@
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <img id="headshot" src="LinkedIn Photo.jpg" alt="Dannala Hoskins" 
+                width="150"
+                height="150" />
+            <h1 id="siteName">Dannala O. Hoskins</h1>    
+    
 
-    <header>
-        <h1>Dannala O. Hoskins</h1>
-
-        <ul>
+ 
+        <ul id="menu">
          <li><a href="index.html">Home</a></li>
          <li><a href="projects.html">Projects</a></li>
          <li><a href="about.html">About</a></li>
@@ -20,7 +25,69 @@
     </header>
     <main>
         <h1>Projects</h1>
+        <div class="experience">
+            <p class="title">First Job</p>
+            <p>Hello</p>
+        </div>
+   
+        <div class="experience">
+           <p class="title">Second Job</p>
+           <p>DEF</p>
+        </div>
+   
+        <div class="experience">
+            <p class="title">Third Job</p>
+            <p>GHI</p>
+        </div>
+        <div class="experience">
+           <p class="title">Fourth Job</p>
+           <p>GHI</p>
+       </div>
+       <div class="experience">
+           <p class="title">Fifth Job</p>
+           <p>GHI</p>
+       </div>
+       <div class="experience">
+           <p class="title">Sixth Job</p>
+           <p>GHI</p>
+       </div>
     </main>
+    <aside>
+        <h2>Contact Me</h2>
+        <form id="contactform">
+            <div id="formInfo"></div>
+            <div>
+                <label for="fullName"><strong>Full Name</strong></label>
+            </div>
+            <div>
+                <input id="fullName" type="text" />
+            </div>
+            <div>
+                <label for="email"><strong>Email</strong></label>
+            </div>  
+            <div>
+             <input id="email" type="email"/>
+            </div>
+            <div>
+                <label for="subject"><strong>Subject</strong></label>
+            </div>  
+            <div>
+                <select id="subject">
+                    <option>Job Offer</option>
+                    <option>Personal Message</option>
+                    <option>Complaint</option>
+                </select>
+            <div>
+                <label for="msg"><strong>Message</strong></label>
+            </div>
+            <div>
+            <textarea id ="msg"rows="4"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Mail"/> 
+            </div>
+        </form>
+</aside>
     <footer>
         &copy; 2022 Copyright - Dannala Hoskins
     </footer>
